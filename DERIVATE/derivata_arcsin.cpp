@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <limits>
 
 // Funcția pentru derivată
 double derivata_arcsin(double x) {
@@ -7,10 +8,10 @@ double derivata_arcsin(double x) {
         return 1 / sqrt(1 - x * x);
     } else if (x == 1 || x == -1) {
         std::cerr << "Derivata este nedefinita la x = " << x << "." << std::endl;
-        return std::numeric_limits<double>::infinity();
+        return std::numeric_limits<double>::max();
     } else {
         std::cerr << "Eroare: x trebuie sa fie in intervalul [-1, 1]." << std::endl;
-        return nan("");
+        return std::numeric_limits<double>::quiet_NaN();
     }
 }
 
