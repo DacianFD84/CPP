@@ -35,16 +35,16 @@ int main() {
     double x0, y0, x_final, pas;
 
     // Cerem utilizatorului să introducă condițiile inițiale și parametrii
-    std::cout << "Introduceți valoarea inițială pentru x (x0): ";
+    std::cout << "Introduceti valoarea initiala pentru x (x0): ";
     std::cin >> x0;
 
-    std::cout << "Introduceți valoarea inițială pentru y (y0): ";
+    std::cout << "Introduceti valoarea initiala pentru y (y0): ";
     std::cin >> y0;
 
-    std::cout << "Introduceți valoarea finală pentru x (x_final): ";
+    std::cout << "Introduceti valoarea finala pentru x (x_final): ";
     std::cin >> x_final;
 
-    std::cout << "Introduceți pasul de integrare: ";
+    std::cout << "Introduceti pasul de integrare: ";
     std::cin >> pas;
 
     // Apelăm funcția de rezolvare prin metoda Runge-Kutta de ordin 4
