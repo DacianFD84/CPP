@@ -9,7 +9,7 @@ int main() {
     cout << "Introduceti temperatura initiala (T0): ";
     cin >> T0;
 
-    // Introducerea ratei de schimbare a temperaturii (u(t))
+    // Introducerea ratei de schimbare a temperaturii (u)
     double u;
     cout << "Introduceti rata de schimbare a temperaturii (u): ";
     cin >> u;
@@ -19,12 +19,17 @@ int main() {
     cout << "Introduceti timpul (t): ";
     cin >> t;
 
-    // Calculul temperaturii T(t) la timpul t
-    double T = T0 + u * t; // Temperatura este temperatura initiala plus rata de schimbare inmultita cu timpul
+    // Calculul temperaturii T(t) la timpul t conform formulei
+    double C; // Constanta de integrare
+    cout << "Introduceti constanta de integrare (C): ";
+    cin >> C;
+
+    // Calculul final pentru T(t)
+    double T = (1.0 / 4.0) * (u * t) + C;
 
     // Afisarea rezultatului
     cout << fixed << setprecision(2); // Setam precizia la 2 zecimale
-    cout << "Valoarea temperaturii la t = " << t << " este: " << T << " grade" << endl;
-
+    cout << "Valoarea temperaturii la t = " << t << " este: " << T0 + T << " grade" << endl;
+    system("pause");
     return 0;
 }
