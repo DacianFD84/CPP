@@ -1,0 +1,65 @@
+program logic_gates
+    implicit none
+    
+    ! Definirea variabilelor
+    integer :: A = 1     ! Buton 1 (True = 1, False = 0)
+    integer :: B = 0     ! Buton 2 (True = 1, False = 0)
+    integer :: LED       ! LED (Va fi 1 sau 0 in functie de conditii)
+
+    ! Poarta AND
+    if (A .and. B) then
+        LED = 1
+    else
+        LED = 0
+    end if
+    print *, 'AND: ', LED  ! Afișează LED-ul pentru AND
+
+    ! Poarta OR
+    if (A .or. B) then
+        LED = 1
+    else
+        LED = 0
+    end if
+    print *, 'OR: ', LED   ! Afișează LED-ul pentru OR
+
+    ! Poarta XOR
+    if (A .xor. B) then
+        LED = 1
+    else
+        LED = 0
+    end if
+    print *, 'XOR: ', LED  ! Afișează LED-ul pentru XOR
+
+    ! Poarta NOT
+    if (.not. A) then
+        LED = 1
+    else
+        LED = 0
+    end if
+    print *, 'NOT A: ', LED  ! Afișează LED-ul pentru NOT
+
+    ! Poarta NAND
+    if (.not. (A .and. B)) then
+        LED = 1
+    else
+        LED = 0
+    end if
+    print *, 'NAND: ', LED  ! Afișează LED-ul pentru NAND
+
+    ! Poarta NOR
+    if (.not. (A .or. B)) then
+        LED = 1
+    else
+        LED = 0
+    end if
+    print *, 'NOR: ', LED   ! Afișează LED-ul pentru NOR
+
+    ! Poarta XNOR
+    if (.not. (A .xor. B)) then
+        LED = 1
+    else
+        LED = 0
+    end if
+    print *, 'XNOR: ', LED  ! Afișează LED-ul pentru XNOR
+
+end program logic_gates
