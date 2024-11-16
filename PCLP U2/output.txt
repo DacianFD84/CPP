@@ -1,0 +1,10 @@
+Rezultatul a fost scris în fișierul: output.txtSuma celor doua numere este: 3.000000
+Rezultatul a fost scris în fișierul: output.txt
+Suma celor doua numere este: 3.000000
+Rezultatul a fost scris în fisierul: output.txt
+Suma celor doua numere este: 3.000000
+Rezultatul a fost scris în fisierul: output.txt
+Suma celor doua numere este: 3.000000
+Rezultatul a fost scris în fisierul: output.txt
+Suma celor doua numere este: 3.000000
+Rezultatul a fost scris in fisierul: output.txt
