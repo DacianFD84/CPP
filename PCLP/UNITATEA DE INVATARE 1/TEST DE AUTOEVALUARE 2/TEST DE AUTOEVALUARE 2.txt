@@ -1,0 +1,21 @@
+Testul de autoevaluare 2:
+
+1.	Ce este o variabilă?
+
+O variabilă este o zonă de memorie care a primit o denumire și ce reține una sau mai multe valori.
+
+2.	Ce este o variabilă simplă?
+
+O variabilă simplă este o variabilă ce reține o singură valoare.
+
+3.	Ce este o variabilă structurată
+
+O variabilă structurată este o variabilă ce reține două sau mai multe valori.
+
+4.	Care sunt operațiile care se pot face cu o variabilă?
+
+Operațiile care se pot efectua asupra unei variabile sunt:
+
+a. Scrierea valorii unei variabile;
+b. Atribuirea unei valori către o variabilă;
+c. Citirea valorii unei variabile.
