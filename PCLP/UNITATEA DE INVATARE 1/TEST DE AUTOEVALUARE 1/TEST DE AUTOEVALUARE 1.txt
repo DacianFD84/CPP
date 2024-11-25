@@ -1,0 +1,17 @@
+Testul de autoevaluare 1:
+
+1.	Ce este un algoritm?
+
+Un algoritm este o secvență finită de pași, care durează un interval de timp finit, ce rezolvă o problemă și întoarce un rezultat.
+
+2.	Care sunt părțile componente ale unui algoritm?
+
+Părțile fundamentale ale unui algoritm sunt:
+
+a. Date de intrare;
+b. Comenzi;
+c. Date de ieșire.
+
+3.	Ce este o schemă logică?
+
+O schemă logică este un desen care cuprinde poligoane și săgeți și care, citite în mod corect, duc la înțelegerea algoritmului pe care îl reprezintă.
