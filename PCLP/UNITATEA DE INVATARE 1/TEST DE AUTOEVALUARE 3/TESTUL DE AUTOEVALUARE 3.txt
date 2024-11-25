@@ -1,0 +1,14 @@
+Testul de autoevaluare 3:
+
+1.	Ce este programarea structurată?
+
+Programarea structurată este un stil de programare care se bazează pe împărțirea pașilor unui algoritm, respectiv a instrucțiunilor unui program în patru modele numite structuri.
+
+2.	Care sunt structurile de bază ale programării structurate?
+
+Structurile de bază ale programării structurate sunt:
+
+a. Structura secvențială;
+b. Structura de decizie;
+c. Structura de selecție;
+d. Structura iterativă
