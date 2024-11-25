@@ -24,7 +24,7 @@ int main() {
     float media = (numere.numar1 + numere.numar2 + numere.numar3) / 3.0;
 
     // Afisarea mediei aritmetice
-    printf("Media aritmetica a celor 3 numere este: %.0f\n", media);
+    printf("Media aritmetica a celor 3 numere este: %.0f\n", media); // .0 - fara zecimale, .2 - 2 zecimale, fara .X - 6 zecimale std C
 
     system("pause");
 
