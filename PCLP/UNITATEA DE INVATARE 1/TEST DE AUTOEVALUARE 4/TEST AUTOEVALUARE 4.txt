@@ -1,0 +1,13 @@
+Testul de autoevaluare 4:
+
+1.	Care este semnificația blocului de intrare a datelor dintr-o schemă logică?
+
+Semnificația blocului de intrare a datelor este aceea de a marca operațiile de introducere a datelor.
+
+2.	Care este semnificația blocului de decizie dintr-o schemă logică?
+
+Semnificația blocului de decizie este de a permite ramificarea algoritmului în raport cu îndeplinirea unei condiției sau condițiilor scrise în interiorul rombului.
+
+3.	Care este blocul din care pleacă întotdeauna săgețile într-o schemă logică?
+
+Blocul din care pleacă întotdeauna săgețile într-o schemă logică este blocul START.
