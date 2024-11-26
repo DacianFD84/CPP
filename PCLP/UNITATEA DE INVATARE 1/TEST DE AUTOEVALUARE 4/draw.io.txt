@@ -1,0 +1,7 @@
+graph TD
+    A[Start] --> B[Input a]
+    B --> C[Input x]
+    C --> D[Input b]
+    D --> E[Calculate E = a * x + b - 2.68]
+    E --> F[Display E]
+    F --> G[End]
