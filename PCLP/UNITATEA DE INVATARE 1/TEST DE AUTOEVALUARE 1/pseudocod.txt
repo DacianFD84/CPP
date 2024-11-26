@@ -1,0 +1,56 @@
+1. Declarații și Inițializări
+C: int, float, char, double, etc.
+Pseudocod: DECLARĂ
+
+C: SET
+Pseudocod: SET
+
+2. Afișarea Mesajelor
+C: printf()
+Pseudocod: AFIȘEAZĂ
+3. Citirea Datelor
+C: scanf()
+Pseudocod: CITEȘTE
+4. Condiții
+C: if, else if, else
+Pseudocod: CONDIȚIE, ALTFEL
+5. Structuri Iterative (Bucle)
+a. Buclă FOR
+C: for
+Pseudocod: PENTRU
+b. Buclă WHILE
+C: while
+Pseudocod: CÂT TIMP
+c. Buclă DO-WHILE
+C: do { ... } while
+Pseudocod: REPETA
+6. Funcții
+C: void, int
+Pseudocod: FUNCȚIE
+
+C: return
+Pseudocod: RETURN
+
+7. Sfârșitul Programului
+C: return 0;
+Pseudocod: STOP
+8. Alte Instrucțiuni
+C: break
+Pseudocod: IEȘIRE
+
+C: continue
+Pseudocod: CONTINUĂ
+
+C: switch-case
+Pseudocod:
+
+yaml
+Copy code
+SELECTEAZĂ:
+    CAZ valoare1:
+        ...
+    CAZ valoare2:
+        ...
+    ALTFEL:
+        ...
+SFÂRȘIT SELECTARE.
